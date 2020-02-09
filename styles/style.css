@@ -25,6 +25,19 @@ li {
     float: left;
 }
 
+li:hover {
+    background: rgb(211, 82, 8);
+}
+
+li a:hover {
+    color: black;
+}
+
+li.active {
+    color: black;
+}
+
+
 .navButton {
     display: block;
     color: rgba(255, 255, 255, 0.89);
@@ -33,13 +46,11 @@ li {
     text-decoration: none;
 }
 
-
-
 .about {
     width: 40%;
     display: inline-block;
-    margin-left:50px;
-    margin-top: 50px;
+    margin-left:300px;
+    margin-top: 75px;
     border-style:solid;
     border-width:1px;
     padding: 10px;
@@ -53,16 +64,17 @@ li {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #aboutText {
     text-align: center;
     padding-top: 15px;
+    font-size: 20px;
 }
 
 .products {
-    width: 500px;
+    width: 375px;
     display: inline;
     float: right;
     margin-right: 50px;
@@ -73,7 +85,7 @@ li {
 }
 
 #productHeader {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 10px;
@@ -82,7 +94,29 @@ li {
     border-bottom-style: solid;
 }
 
-#productText {
+#productList {
     text-align: center;
     padding-top: 15px;
+    list-style-type: square;
+    margin-bottom: 20px;
+    overflow: visible;
+    margin-bottom: 125px;
+
+}
+
+.product {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-size: 23px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.product a {
+    text-decoration: none;
+    color: black;
+}
+
+.product a:hover {
+    color: rgb(211, 82, 8);
 }
