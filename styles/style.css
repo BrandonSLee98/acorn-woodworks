@@ -74,7 +74,7 @@ li.active {
 }
 
 .products {
-    width: 375px;
+    width: 300px;
     display: inline;
     float: right;
     margin-right: 50px;
@@ -105,9 +105,7 @@ li.active {
 }
 
 .product {
-    margin-top: 15px;
-    padding-bottom: 15px;
-    font-size: 23px;
+    font-size: 17px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
@@ -115,6 +113,9 @@ li.active {
 .product a {
     text-decoration: none;
     color: black;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .product a:hover {
